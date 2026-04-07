@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)
-- Live Site URL: [Add live site URL here](https://t-mart98.github.io/four-card-feature-section/)
+- Live Site URL: [Add live site URL here]([https://t-mart98.github.io/four-card-feature-section/])
 
 ## My process
 

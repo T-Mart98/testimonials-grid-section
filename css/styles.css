@@ -84,7 +84,6 @@ h1 {
 
 span {
     font-size: 12px;
-    margin-block-start: px;
 }
 
 p {
@@ -95,17 +94,18 @@ p {
     .testimonials {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        margin-block-start: 100px;
-        padding-inline: 350px;
+        grid-template-rows: auto auto;
+        gap: 25px;
+
+        max-width: 1110px;   /* key fix */
+        margin: 100px auto;  /* centers the grid */
+        padding: 0;          /* remove huge side padding */
     }
 
     .testimonial {
-        margin-block: 15px;
-        margin-inline: 15px;
-        padding: 35px;
-        height: 300px;
-}
+        margin: 0;
+        height: auto;        /* let content define height */
+    }
 
     .daniel {
         grid-area: 1 / 1 / span 1 / span 2;
@@ -132,7 +132,7 @@ p {
 
     .kira {
         grid-area: 1 / 4 / span 2 / span 1;
-        height: 630px;
+        height: 670px;
     }
 
     main {
